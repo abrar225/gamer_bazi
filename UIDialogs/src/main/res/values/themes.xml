@@ -1,0 +1,10 @@
+<resources>
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+
+        <!--non selected star color-->
+        <item name="colorControlNormal">#4D000000</item>
+
+        <!-- selected star color-->
+        <item name="colorControlActivated">@android:color/holo_blue_light</item>
+    </style>
+</resources>

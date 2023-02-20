@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/UIDialogs/src/main/res/drawable/round_back_blue10_10.xml" value="0.18981481481481483" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/UIDialogs/src/main/res/layout/otp_dialog_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/UIDialogs/src/main/res/layout/update_details_adapter_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/UIDialogs/src/main/res/layout/update_dialog_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable-hdpi/round_back_sec_100.xml" value="0.17314814814814813" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable-v24/rank1_background.xml" value="0.18981481481481483" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable-v24/round_back_top_white.xml" value="0.16018518518518518" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/copy_icon.xml" value="0.1685185185185185" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1685185185185185" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/payment_method_border.xml" value="0.17407407407407408" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/rank1_background.xml" value="0.18981481481481483" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/round_back_black_trans.xml" value="0.18981481481481483" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/round_back_light_white.xml" value="0.17314814814814813" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/round_back_pri10_10.xml" value="0.17314814814814813" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/round_back_sec_10.xml" value="0.19583333333333333" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/round_back_sec_100.xml" value="0.17314814814814813" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/round_back_sky.xml" value="0.17314814814814813" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/round_back_top_blue.xml" value="0.16018518518518518" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/drawable/round_back_white_10_stroke.xml" value="0.17314814814814813" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout-v21/activity_tournament_details.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/account_block_dialog_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_add_money.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_login.xml" value="0.12" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_payment_gateway.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_tournament_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_tournament_results.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_tournaments.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_wallet.xml" value="0.1" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/activity_withdraw_amount.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/detail_adapter_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/distribution_adapter_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/fragment_ongoing.xml" value="0.1" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/fragment_refer_earn_freagment.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/gameid_dialog_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/games_adapter_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/join_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/rank1_background.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/refer_code_dialog_layout.xml" value="0.22" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/response_dialog_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/results_adapter_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/room_id_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/tournaments_adapter_layout.xml" value="0.10597826086956522" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/transactions_adapter_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/update_dialog_layout.xml" value="0.10597826086956522" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/update_dialog_layout2.xml" value="0.3333333333333333" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/update_profile_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/layout/withdraw_details_dialog_layout.xml" value="0.1796875" />
+        <entry key="..\:/Android Stuio Projects/BooyahBaazi/app/src/main/res/mipmap-anydpi-v26/main_logo_round.xml" value="0.1685185185185185" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

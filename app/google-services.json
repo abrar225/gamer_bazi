@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "454680802586",
+    "firebase_url": "https://tournamentapp-93dc0-default-rtdb.firebaseio.com",
+    "project_id": "tournamentapp-93dc0",
+    "storage_bucket": "tournamentapp-93dc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454680802586:android:8e94837a5de5c42bbda8a3",
+        "android_client_info": {
+          "package_name": "com.aliveztechnosoft.gamerbazi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454680802586-199ortnt4q11u61mkcul8tgqoi3gq0in.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aliveztechnosoft.gamerbazi",
+            "certificate_hash": "ce5dbf10dd6cb3a8952c3fde991ee53a45caa940"
+          }
+        },
+        {
+          "client_id": "454680802586-hqt82lpkduv8a8eobg8u8ffclipmgk24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX0any8PmWHI1E-Z0bcYgWoFcjPvj0HmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454680802586-hqt82lpkduv8a8eobg8u8ffclipmgk24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

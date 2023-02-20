@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/main_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/main_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".cash.OfflinePayment"
+            android:exported="false" />
+        <activity
+            android:name=".cash.WithdrawAmount"
+            android:exported="false" />
+        <activity
+            android:name=".home.games.tournaments.Tournaments"
+            android:exported="false" />
+        <activity android:name=".home.games.tournaments.results.TournamentResults" />
+        <activity android:name=".cash.PaymentGateway" />
+        <activity android:name=".cash.Wallet" />
+        <activity android:name=".home.games.tournaments.tournament_details.TournamentDetails" />
+        <activity android:name=".login_register.Register" />
+        <activity
+            android:name=".login_register.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".fcm.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+    </application>
+
+</manifest>

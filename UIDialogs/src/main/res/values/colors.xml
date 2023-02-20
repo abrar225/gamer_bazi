@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+
+
+    <!--    Rate Us Dialog-->
+    <color name="dialog_color_1">#FDD736</color>
+    <color name="dialog_color_2">#3B5796</color>
+
+    <!--    Update Dialog-->
+    <color name="dialog_color_3">#FFD748</color>
+    <color name="dialog_color_4">#FACB38</color>
+    <color name="secodary_color">#F65555</color>
+    <color name="button_color_1">#0F0D18</color>
+</resources>

@@ -1,0 +1,6 @@
+include ':UIDialogs'
+include ':app'
+rootProject.name='Gamer Bazi'
+include ':BottomBar'
+include ':TabLayout'
+include ':NavigationBar'
