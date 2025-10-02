@@ -21,7 +21,6 @@ public final class JSONFunctions {
      */
     public static String getStringFromJSONObject(Context context, JSONObject jsonObject, String jsonObjectKey) {
         try {
-
             if (jsonObject.has(jsonObjectKey)) {
                 return jsonObject.getString(jsonObjectKey);
             }

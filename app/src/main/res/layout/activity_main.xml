@@ -37,7 +37,7 @@
                 android:layout_centerInParent="true"
                 android:adjustViewBounds="true"
                 android:contentDescription="TODO"
-                android:src="@drawable/txt_logo" />
+                android:src="@drawable/txt_icon_2323"/>
 
             <LinearLayout
                 android:id="@+id/addMoneyLayout"

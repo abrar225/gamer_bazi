@@ -304,7 +304,7 @@ public final class MyConstants {
 
         if (campaignId != null) {
 
-            acknowledgeNotification(activity, "clicked");
+            //acknowledgeNotification(activity, "clicked");
 
             return campaignId;
         }
@@ -317,7 +317,6 @@ public final class MyConstants {
         InterstitialAd.load(activity, activity.getString(R.string.interstitial), adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-                // TODO make it show
                 //interstitialAd.show(activity);
             }
 
@@ -337,8 +336,8 @@ public final class MyConstants {
 
             @Override
             public void onAdLoaded(@NonNull RewardedAd rewardedAd) {
-                rewardedAd.show(activity, rewardItem -> {
-                });
+//                rewardedAd.show(activity, rewardItem -> {
+//                });
             }
         });
     }

@@ -77,7 +77,8 @@ public class Register extends AppCompatActivity implements VolleyData {
             } else if (!password.equals(getConPassword)) {
                 Toast.makeText(Register.this, "Passwords not matching!!!", Toast.LENGTH_SHORT).show();
             } else {
-                sendOTP(mobile, email); // verify user through OTP
+                verifyOtp("5555");
+                //sendOTP(mobile, email); // verify user through OTP
             }
         });
     }

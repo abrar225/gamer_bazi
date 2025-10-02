@@ -63,7 +63,7 @@ class NotificationUtils {
             }
 
             // Acknowledge Notification
-            MyConstants.acknowledgeNotification(mContext, "received");
+            //MyConstants.acknowledgeNotification(mContext, "received");
 
             Bitmap iconBitMap = null;
 
@@ -115,7 +115,7 @@ class NotificationUtils {
                         .setContentTitle(title)
                         .setContentIntent(resultPendingIntent)
                         .setStyle(new NotificationCompat.BigTextStyle().bigText(message))
-                        .setSmallIcon(R.drawable.gamer_bazi_logo)
+                        .setSmallIcon(R.drawable.gamer_bazi_noti_icon)
                         .setContentText(message)
                         .build();
 
@@ -130,7 +130,7 @@ class NotificationUtils {
                         .setContentTitle(title)
                         .setContentIntent(resultPendingIntent)
                         .setStyle(bigPictureStyle)
-                        .setSmallIcon(R.drawable.gamer_bazi_logo)
+                        .setSmallIcon(R.drawable.gamer_bazi_noti_icon)
                         .setContentText(message)
                         .build();
             }

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.WebResourceRequest;
@@ -78,6 +79,8 @@ public final class PaymentGateway extends AppCompatActivity implements VolleyDat
                 }
             }
         });
+
+        Log.e("aksfjakasfdsjfaf", MemoryData.getData("r.txt", "", this) + "index.php?from=add_payment&user_id=" + UserDetails.get(this, "").getId() + "&amount=" + getIntent().getStringExtra("amount"));
 
         webView.loadUrl(MemoryData.getData("r.txt", "", this) + "index.php?from=add_payment&user_id=" + UserDetails.get(this, "").getId() + "&amount=" + getIntent().getStringExtra("amount"));
     }

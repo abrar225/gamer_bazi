@@ -232,8 +232,6 @@ public class Login extends AppCompatActivity implements VolleyData {
                             finish();
                         } else {
 
-                            // TODO load home data here before opening destination activity
-                            //loadHomeData();
                             final String destination = notificationData.getDestination();
 
                             if (destination.equals("tournaments")) {

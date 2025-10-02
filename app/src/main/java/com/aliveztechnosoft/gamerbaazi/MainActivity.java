@@ -1,12 +1,15 @@
 package com.aliveztechnosoft.gamerbaazi;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -14,8 +17,11 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -61,6 +67,19 @@ public class MainActivity extends AppCompatActivity implements VolleyData, Navig
     private NavigationBar navigationBar;
 
     private RelativeLayout topBar;
+
+    private ActivityResultLauncher<String> requestPermissionLauncher = registerForActivityResult(new ActivityResultContracts.RequestPermission(), isGranted -> {
+        if (isGranted) {
+            // Permission is granted. Continue the action or workflow in your
+            // app.
+        } else {
+            // Explain to the user that the feature is unavailable because the
+            // feature requires a permission that the user has denied. At the
+            // same time, respect the user's decision. Don't link to system
+            // settings in an effort to convince the user to change their
+            // decision.
+        }
+    });
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -114,6 +133,13 @@ public class MainActivity extends AppCompatActivity implements VolleyData, Navig
 
         // getting data from server
         getHomeData();
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS);
+            }
+        }
+
     }
 
     private void initFirebase() {
@@ -152,6 +178,7 @@ public class MainActivity extends AppCompatActivity implements VolleyData, Navig
     private void beautifyNavigationBar(NavigationBar navigationBar) {
 
         CustomNavTheme customNavTheme = new CustomNavTheme();
+
         customNavTheme.setNavigationBackground(getResources().getColor(R.color.light_theme2));
         customNavTheme.setTextColor(getResources().getColor(R.color.white_60));
         customNavTheme.setGroupNameColor(getResources().getColor(R.color.white_30));
@@ -159,6 +186,7 @@ public class MainActivity extends AppCompatActivity implements VolleyData, Navig
         customNavTheme.setHeaderWishTextColor(Color.WHITE);
         customNavTheme.setHeaderProfileNameTextColor(Color.WHITE);
         customNavTheme.setLogoutTextColor(Color.WHITE);
+
         navigationBar.setTheme(customNavTheme); // setting theme to NavigationBar
 
     }

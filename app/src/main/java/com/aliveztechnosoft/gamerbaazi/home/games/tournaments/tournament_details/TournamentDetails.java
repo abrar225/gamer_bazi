@@ -5,6 +5,7 @@ import static com.aliveztechnosoft.gamerbaazi.DateAndTimeFunctions.changeFormat;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -21,7 +22,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.aliveztechnosoft.gamerbaazi.MyConstants;
 import com.aliveztechnosoft.gamerbaazi.R;
+import com.aliveztechnosoft.gamerbaazi.RoomIdDialog;
 import com.aliveztechnosoft.gamerbaazi.utilities.Games;
+import com.aliveztechnosoft.gamerbaazi.utilities.RoomIds;
 import com.aliveztechnosoft.gamerbaazi.utilities.Tournaments;
 import com.aliveztechnosoft.gamerbaazi.volley_data.MyVolley;
 import com.aliveztechnosoft.gamerbaazi.volley_data.VolleyData;
@@ -36,6 +39,7 @@ import org.json.JSONObject;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
@@ -103,6 +107,18 @@ public class TournamentDetails extends AppCompatActivity implements VolleyData {
         final String gameId = getIntent().getStringExtra("game_id");
         if (tournamentId == null || gameId == null) {
             return;
+        }
+
+        List<RoomIds> roomIdsList = RoomIds.get(this, "").getArray();
+
+        // show room ids if available
+        for (int i = 0; i < roomIdsList.size(); i++) {
+            if (roomIdsList.get(i).getTournamentId().equals(tournamentId)) {
+                RoomIdDialog roomIdDialog = new RoomIdDialog(this, roomIdsList.get(i).getRoomId(), roomIdsList.get(i).getMessage());
+                roomIdDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                roomIdDialog.show();
+                break;
+            }
         }
 
         selectedTournament = Tournaments.get(this, "").getTournamentById(tournamentId);
